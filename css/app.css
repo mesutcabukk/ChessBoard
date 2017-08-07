@@ -1,1 +1,27 @@
-/* Application Styles */
+
+div {
+  box-sizing: border-box;
+  border: 2px solid black;
+  width: 80px;
+  height: 80px;
+  float: left;
+
+  
+}
+div.cla {
+  width: 644px;
+  height: 644px;
+  box-sizing: border-box;
+  display: inline-block;
+  
+}
+div.one {
+  display: none;
+}
+div:nth-child(odd) {
+    background: white;
+}
+
+div:nth-child(even) {
+    background: black;
+}

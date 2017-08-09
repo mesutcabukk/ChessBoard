@@ -9,6 +9,7 @@ div {
   
 }
 main {
+  margin: 50px auto;
   width: 644px;
   height: 644px;
   box-sizing: border-box;

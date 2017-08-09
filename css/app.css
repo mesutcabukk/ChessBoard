@@ -1,21 +1,22 @@
 
 div {
   box-sizing: border-box;
-  border: 2px solid black;
+  border: 1px solid black;
   width: 80px;
   height: 80px;
   float: left;
 
   
 }
-div.cla {
+main {
   width: 644px;
   height: 644px;
   box-sizing: border-box;
   display: inline-block;
+  transform: perspective( 1200px ) rotateX( 50deg );
   
 }
-div.one {
+div.placeholder {
   display: none;
 }
 div:nth-child(odd) {

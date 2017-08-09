@@ -1,29 +1,29 @@
-
-div {
-  box-sizing: border-box;
-  border: 1px solid black;
+*{
+  box-sizing: content-box;
+  border-width: 0;
+  margin: 0;
+  padding: 0;
+}
+span {
+  display: block;
+  float:left; 
+  background: red;
   width: 80px;
   height: 80px;
-  float: left;
-
-  
 }
 main {
+  border: 1px solid black;
   margin: 50px auto;
-  width: 644px;
-  height: 644px;
-  box-sizing: border-box;
-  display: inline-block;
-  transform: perspective( 1200px ) rotateX( 50deg );
-  
+  width: 640px;
+  height: 640px;
+  transform: perspective( 1200px ) rotateX( 50deg );  
 }
-div.placeholder {
+span.placeholder {
   display: none;
 }
-div:nth-child(odd) {
+span:nth-child(odd) {
     background: white;
 }
-
-div:nth-child(even) {
+span:nth-child(even) {
     background: black;
 }
